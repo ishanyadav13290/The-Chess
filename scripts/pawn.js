@@ -12,6 +12,7 @@ let onePawn=[]
 // marking above steps as accesible 
 function pawnStep(pawn,color){
 let id=pawn.getAttribute("id");
+
 // column and row name 
 let next= +id[1];
 let constant =id[0]
